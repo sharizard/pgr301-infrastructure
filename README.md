@@ -19,7 +19,9 @@ This project contains the following terraform modules:
 To build this project, it's set up so that Travis will handle it for you. Set up Travis to work on your project by navigating to [travis-ci.com] and connecting Travis to your repo. For Travis to set up everything correctly, you will have to set a few variables as well.
 
 To set the variables required, you can run the following travis command for each of the listed required variables.
->`travis encrypt SOMEVAR="secretvalue" --add`
+>`travis encrypt SOMEVAR="secretvalue" --add --pro` (for travis-ci.com)
+
+>`travis encrypt SOMEVAR="secretvalue" --add` (for travis-ci.org)
 
 ### Variables required:
 - HEROKU_EMAIL
